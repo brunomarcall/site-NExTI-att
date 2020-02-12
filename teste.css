@@ -3565,6 +3565,10 @@ input:checked+.bm-checkbox_flat-box:before {
 	letter-spacing: -.01em
 }
 
+.bm-hero-header h1.title-bottom {
+	color: #ffc500;
+}
+
 @media (min-width:768px) {
 	.bm-hero-header h1 {
 		font-size: 44px;
