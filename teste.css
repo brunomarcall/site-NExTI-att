@@ -3242,6 +3242,7 @@ input:checked+.bm-checkbox_flat-box:before {
 
 @media (min-width:1200px) {
 	.bm-screen-item {
+		
 		height: 100%
 	}
 }
@@ -5758,6 +5759,7 @@ input:checked+.bm-checkbox_flat-box:before {
 }
 
 .bm-feature-content {
+	
 	position: relative
 }
 
@@ -5795,6 +5797,7 @@ input:checked+.bm-checkbox_flat-box:before {
 }
 
 .bm-feature-grid-col {
+	
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
