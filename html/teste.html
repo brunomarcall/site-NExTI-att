@@ -16,6 +16,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="../css/teste.css">
+    <link rel="stylesheet" href="../css/custom.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -89,10 +90,7 @@
                     <div class="bm-menu-nav-item-title">Inicio</div>
                     <div class="bm-menu-nav-item-line"><span></span></div>
                 </div>
-                <div class="bm-menu-nav-item" data-section-target="brief">
-                    <div class="bm-menu-nav-item-title">Sobre</div>
-                    <div class="bm-menu-nav-item-line"><span></span></div>
-                </div>
+               
                 <div class="bm-menu-nav-item" data-section-target="works">
                     <div class="bm-menu-nav-item-title">Projetos</div>
                     <div class="bm-menu-nav-item-line"><span></span></div>
@@ -106,7 +104,7 @@
                     <div class="bm-menu-nav-item-line"><span></span></div>
                 </div>
                 <div class="bm-menu-nav-item" data-section-target="service">
-                    <div class="bm-menu-nav-item-title">Services</div>
+                    <div class="bm-menu-nav-item-title">Nosso Time</div>
                     <div class="bm-menu-nav-item-line"><span></span></div>
                 </div>
                 <div class="bm-menu-nav-item" data-section-target="contact">
@@ -348,68 +346,40 @@
                             </div>
                         </section>
                     </div>
+                    
+                    <!-- Inicio do nosso time -->
                     <div class="bm-screen-item">
-                        <section class="bm-feature -spaced">
-                            <div class="bm-feature-container">
-                                <div class="bm-feature-anchor" data-section-anchor="service"></div>
-                                <div class="bm-feature-fill"></div>
-                                <div class="bm-feature-header">
-                                    <h2>Services</h2></div>
-                                <div class="bm-feature-skew">
-                                    <div class="bm-feature-skew-revert">
-                                        <div class="bm-feature-header">Services</div>
+                        <section class="bm-connect -spaced">
+                            <div class="bm-connect-container">
+                                <div class="bm-connect-anchor" data-section-anchor="service"></div>
+                                <div class="bm-connect-fill"></div>
+                                <div class="bm-connect-header">
+                                    <div class="bm-hero-header">
+                                        <h1>Nosso<br></h1>
+                                        <h1 class="title-bottom">Time</h1>
                                     </div>
                                 </div>
-                                <div class="bm-feature-content">
-                                    <div class="bm-feature-grid">
-                                        <div class="bm-feature-grid-col">
-                                            <div class="bm-feature-items">
-                                                <div class="bm-feature-item -active">
-                                                    <div class="bm-feature-item-head">
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-ico"><s class="bm-sprite -service-print"></s></div>
+                                <div class="bm-view" data-controller="worksController" id="view-main">
+                                    <div class="bm-content" data-scroll="x" role="main">
+                                        <div class="bm-screen">
+                                            <div class="bm-screen-roll">
+                                                <div class="bm-screen-item">
+                                                    <section class="bm-workbox -spaced">
+                                                        <div class="bm-workbox-content">
+                                                            <div class="bm-workbox-container">
+                                                                <div class="bm-workbox-items">
+                                                                    <a class="bm-workbox-item" href="#"><span class="bm-workbox-item-photo"><span class="bm-workbox-item-photo-img" style="background-image: url(../../../img/time/anselmo.jpg);"></span></span><span class="bm-workbox-item-title">Coordenador<br> Anselmo Lacerda</span></a>
+                                                                    <a class="bm-workbox-item" href="/works/castle/"><span class="bm-workbox-item-photo"><span class="bm-workbox-item-photo-img" style="background-image:url(../../../img/time/Danilo.jpg)"></span></span><span class="bm-workbox-item-title">Coordenador Auxiliar<br> Danilo Costa</span></a>
+                                                                    <div class="show-more">
+                                                                        <a class="bm-btn bm-btn_flat " href="./Nosso_Time.html"><i class="fas fa-plus fa-2x mt-1"></i></a>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-title">3D modeling and
-                                                                <br> printing</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bm-feature-item-body">
-                                                        <div class="bm-feature-item-text">
-                                                            <p>We make 3D models. You can order both modeling and printing, and the model can totally match up to objects in the real world.</p>
-                                                        </div>
-                                                    </div>
+                                                    </section>
                                                 </div>
-                                                <div class="bm-feature-item">
-                                                    <div class="bm-feature-item-head">
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-ico"><s class="bm-sprite -service-diorama"></s></div>
-                                                        </div>
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-title">Dioramas &
-                                                                <br> miniatures</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bm-feature-item-body">
-                                                        <div class="bm-feature-item-text">
-                                                            <p>We produce custom miniatures. You dream up the theme and scale, we do the work. Timelines and prices depend on scale and detail.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="bm-feature-item">
-                                                    <div class="bm-feature-item-head">
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-ico"><s class="bm-sprite -service-model"></s></div>
-                                                        </div>
-                                                        <div class="bm-feature-item-head-col">
-                                                            <div class="bm-feature-item-title">Architectural models</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bm-feature-item-body">
-                                                        <div class="bm-feature-item-text">
-                                                            <p>An architectural model is an essential feature of any real estate exhibit. We're experts at separate buildings or complicated constructions.</p>
-                                                        </div>
-                                                    </div>
+                                                <div class="bm-screen-item">
                                                 </div>
                                             </div>
                                         </div>
@@ -418,6 +388,8 @@
                             </div>
                         </section>
                     </div>
+                    <!-- Fim do Nosso time -->
+
                     <div class="bm-screen-item">
                         <section class="bm-outro">
                             <div class="bm-outro-container">
