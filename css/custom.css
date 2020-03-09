@@ -9,6 +9,10 @@
     height: auto;
 }
 
+.bm-work-photo-item-img{
+    background-size: 400px 400px; 
+    background-repeat: no-repeat;
+}
 
 
 @media  (max-width:1199px) {
@@ -19,6 +23,10 @@
 
     .show-more > a {
         bottom:auto;
+    }
+    
+    .bm-work-photo-item-img{
+        background-size: contain;
     }
 
 }
