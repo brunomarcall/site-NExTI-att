@@ -1254,7 +1254,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	}
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'Gothic A1';
 	src: url(/assets/fonts/gothic/GothicA1-Light.woff2) format("woff2"), url(/assets/fonts/gothic/GothicA1-Light.woff) format("woff"), url(/assets/fonts/gothic/GothicA1-Light.ttf) format("truetype");
 	font-weight: 300;
@@ -1284,10 +1284,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	font-weight: 900;
 	font-style: normal;
 	font-display: swap
-}
+} */
 
 
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
 
 html {
 	line-height: 1.15;
@@ -2710,6 +2710,7 @@ button:not(:disabled) {
 }
 
 .bm-btn_menu-circle {
+	background: #fff;
 	display: inline-block;
 	width: 45px;
 	height: 45px;
@@ -2728,7 +2729,7 @@ button:not(:disabled) {
 	height: 3px;
 	margin: 0 4px;
 	vertical-align: middle;
-	background: rgba(119, 119, 119, .2)
+	background: #0081bc;
 }
 
 .bm-btn_menu-circle span:first-child {
@@ -3837,7 +3838,7 @@ input:checked+.bm-checkbox_flat-box:before {
 @supports (-webkit-text-fill-color:transparent) {
 	.bm-brief-header h2 {
 		background-color: #0081bc;
-		background-image: url(../img/bg/4.jpg);
+		background-image: url();
 		-webkit-background-size: 414px auto;
 		-moz-background-size: 414px auto;
 		background-size: 414px auto;
@@ -4697,7 +4698,7 @@ input:checked+.bm-checkbox_flat-box:before {
 
 @media (min-width:768px) {
 	.bm-connect-header h2 {
-		font-size: 72px;
+		font-size: 52px;
 		letter-spacing: .01em
 	}
 }
@@ -5175,7 +5176,7 @@ input:checked+.bm-checkbox_flat-box:before {
 	.bm-entrybox-header {
 		top: -100px;
 		left: 60px;
-		font-size: 72px;
+		font-size: 52px;
 		letter-spacing: .02em
 	}
 }
@@ -7132,7 +7133,7 @@ input:checked+.bm-checkbox_flat-box:before {
 
 @media (min-width:768px) {
 	.bm-outro-header {
-		font-size: 72px;
+		font-size: 52px;
 		letter-spacing: .02em
 	}
 }
